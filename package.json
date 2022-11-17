@@ -1,0 +1,16 @@
+{
+  "name": "syntra_html",
+  "version": "1.0.0",
+  "description": "excercises for HTML-CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "surge": "surge . NoahBovee-Html-CSS.surge.sh"
+  },
+  "author": "Noah Bovée",
+  "license": "ISC"
+}
+
+
+
+

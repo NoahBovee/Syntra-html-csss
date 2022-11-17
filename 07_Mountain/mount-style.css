@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0; 
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(./Montserrat/Montserrat-Thin.ttf);
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url(./Montserrat/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: myThirdFont;
+    src: url(./Montserrat/Montserrat-Bold.ttf);
+}
+
+body {
+    background-image:url(./background.jpg) ;
+}
+nav {
+    display: flex;
+    justify-content: space-around; 
+    padding: 20px 10px
+    
+}
+
+ul {
+    display: flex; 
+    gap: 2rem;
+    font-family: myFirstFont;
+    color: white
+    
+}
+li {
+   
+    list-style: none;
+    
+}
+.middle {
+    text-align: center;
+    color: white;
+    line-height: 50px;
+
+}
+
+h1 {
+    font-size: 20px;
+    font-family: mySecondFont;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: myThirdFont;
+}
+
+button {
+    background-color: #998675;
+    color: white;
+    padding: 8px 16px;
+    border-color: #998675;
+    border-radius: 10px;
+}

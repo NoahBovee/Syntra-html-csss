@@ -1,0 +1,8 @@
+border-box 
+grid
+order
+
+position: relative, absolute 
+= 
+
+alle games nog eens opnieuw bekijken, vooral voor de benaming van 'methodes' -> die ga je waarschijnlijk nodig hebben voor de opdracht.'

@@ -1,0 +1,98 @@
+/* drie basisstijlregels om je te helpen */
+:root {
+  font-size: 62.5%; /* zet je dit op 62.5%, dan is elke rem 10px waard, anders 16px */
+}
+/* 1rem = 10px
+ 1.4 = 14px
+*/
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* hier komt jouw css */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  background-color: #699bf7;
+}
+
+nav {
+  background-color: white;
+}
+aside {
+  background-color: #c8b8ff;
+  padding: 22px;
+  text-align: center;
+}
+
+main {
+  padding: 62px 10vw;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  padding: 62px 11vw;
+  row-gap: 36px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  width: 400px;
+}
+
+article h1 {
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+article h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+article section {
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 15px;
+}
+
+article button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 7px;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 16px 26px;
+}
+
+article button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  padding: 34px 34px 39px 34px;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  background-color: black;
+  color: white;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
