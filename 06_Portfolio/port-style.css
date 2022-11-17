@@ -1,3 +1,4 @@
+/* to measure pixel perfect with gimp, (measure tool) */
 * {
   margin: 0;
   padding: 0;
@@ -33,13 +34,17 @@ div p {
 .top {
   padding: 65px 100px;
 }
-.container img{
+
+figure {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   column-gap: 2vw;
   vertical-align: middle;
+  
 }
+
+
+
 
 .container {
   display: grid;
@@ -80,7 +85,7 @@ ul li:first-child {
 }
 
 ul li {
-  margin-left: 10px;
+  margin-left: 15px;
   border-radius: 10%;
   border: 1px solid #666d89;
   padding: 1px;
@@ -90,8 +95,6 @@ ul li {
 li {
   list-style-type: none;
 }
-
-
 
 
 .images {
