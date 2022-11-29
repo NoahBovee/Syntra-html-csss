@@ -5,10 +5,9 @@
 }
 
 body {
-  background: url(../08_Xit/xit-bg.png) ;
+  background: url(../08_Xit/xit-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-
   font-family: Arial, Helvetica, sans-serif;
 }
 /* --------------------------------------- */
@@ -91,13 +90,16 @@ form {
   color: white;
   display: flex;
   flex-direction: column;
-  padding: 22px 25px;
+  border: 2px solid transparent;
+  border-radius: 4px;
   height: 350px;
-  width: 350px;
+  width: 320px;
+  padding: 22px 25px;
 }
 form > button {
   background-color: #ff9b51;
   color: white;
+  height: 50px;
 }
 .form > p {
   color: black;
@@ -137,4 +139,51 @@ footer {
   gap: 20px;
   color: lightgray;
   font-size: 45px;
+}
+
+/* --------------------------------------- */
+
+@media screen and (max-width: 800px) {
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav h1 {
+    display: none;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  form {
+    width: 500px;
+  }
+
+  .form {
+    margin-top: 10px;
+  }
+
+  .about h1 {
+    text-align: center;
+  }
+
+  .about h2 {
+    text-align: center;
+  }
+
+  .about p {
+    text-align: center;
+  }
+  .about button {
+    align-items: center;
+  }
+
+  .about h2::after {
+    content: "";
+    display: block;
+    align-items: center;
+  }
 }
