@@ -4,11 +4,14 @@
   padding: 0;
 }
 
+
+
 body {
   background: url(../08_Xit/xit-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   font-family: Arial, Helvetica, sans-serif;
+ 
 }
 /* --------------------------------------- */
 
@@ -34,6 +37,12 @@ nav h1 {
 nav ul li {
   color: white;
   padding: 20px;
+}
+
+nav ul li:hover {
+  background-color: #ff9b51;
+  color: black;
+  cursor: pointer;
 }
 
 /* --------------------------------------- */
@@ -100,6 +109,7 @@ form > button {
   background-color: #ff9b51;
   color: white;
   height: 50px;
+  border: none;
 }
 .form > p {
   color: black;
@@ -178,12 +188,13 @@ footer {
     text-align: center;
   }
   .about button {
-    align-items: center;
+    margin-left: 200px;
   }
 
   .about h2::after {
     content: "";
     display: block;
-    align-items: center;
+    justify-content: center;
+    width: 475px;
   }
 }
