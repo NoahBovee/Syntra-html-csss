@@ -5,6 +5,8 @@ nav {
   background-color: #f38181;
   /* om de img & section verticaal te centreren */
   align-items: center;
+  max-width: 100%;    
+    min-width: 1000px;
 }
 
 nav img {
@@ -15,6 +17,8 @@ nav section ul {
   display: flex;
   gap: 2rem;
 }
+
+
 
 body {
   background-image: url(./berg.png);
@@ -53,6 +57,7 @@ article div h4::after {
   width: 60px;
   position: absolute;
   top: 21px;
+  
   left: 0;
 }
 
@@ -96,7 +101,45 @@ h4 {
 }
 */
 
+.row-box {
+  display: flex;
+  
+  gap: 2rem;
+}
+
+.second-row {
+  display: flex;
+  gap: 2rem;
+  
+}
+
 main article img {
   border-radius: 50%;
   width: 110px;
+}
+
+
+@media only screen and (max-width: 950px) {
+body {
+  background-image: url(berg.png);
+  background-size: 100%;
+}
+
+  header {
+  justify-content: center;
+}
+
+nav img {
+  display: none
+}
+
+  .row-box {
+  flex-direction: column;
+  justify-content: center;
+}
+.second-row{
+  flex-direction: column;
+  justify-content: center;
+}
+
 }
